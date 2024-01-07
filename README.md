@@ -4,7 +4,7 @@
 
 # Introduction to Blender
 
-These instructions will get you familiar with Blender by quickly creating a liquid simulation of a three-dimensional model.
+These instructions will get you familiar with Blender by quickly creating a liquid simulation of a three-dimensional model and exporting an animation.
 
 Excluding time to download and processing your animation, _**you will be able to complete this tutorial in ~10 minutes**_
 
@@ -65,7 +65,7 @@ This tutorial uses the "**portable**" Windows version of Blender to simplify ins
 
 ## 3. Basic Navigation
 
-When you first start Blender, you will be presented with a default file that has a 3D cube in it. For the purposes of this tutorial, you do not need to manipulate the cube object other than selecting it by clicking on it (it will be highlighed in an orange outline when selected).
+When you first start Blender, you will be presented with a default file that has a 3D cube in it. For the purposes of this tutorial, you do not need to manipulate the `Cube` object other than selecting it by clicking on it (it will be highlighed in an orange outline when selected).
 
 [![.img/fig3_basic_navigation.jpg](.img/fig3_basic_navigation.jpg)](#nolink)
 
@@ -129,14 +129,16 @@ With these individual frames, you can use other software like GIMP or ScreenToGi
 
 ## 6. Next Steps
 
-***Congratulations, you've created your first computer-generated imagery (CGI) just like in the movie!*** 
+***Congratulations, you've created your first computer-generated imagery (CGI) just like in the movies!*** 
 
 If you're wondering how to make the melting chocolate bar like in the Preface section, you'll have to look into these concepts:
 
-- Different models: `File` → `Import`
-- Backgrounds: `World` → `Color` → `Environment Texture`
-- Surface colors and appearances: Revisit `Material Properties` from the [Applying Physics](#4-applying-physics) step and look into properties like `Base Color`, `Metallic`, `Roughness`, etc.
-- Changing surface colors and appearances throughout animation: Change `Material Properties` and utilize [Keyframes](https://docs.blender.org/manual/en/latest/animation/keyframes/index.html) throughout the animation
+- **Using different models**: `File` → `Import` (See ["Free 3D Models"](#other-resources))
+- **Backgrounds**: `World` → `Color` → `Environment Texture` (See ["Free HDRI Backgrounds"](#other-resources))
+- **Surface colors and appearances**: Revisit `Material Properties` from the [Applying Physics](#4-applying-physics) step and look into properties like `Base Color`, `Metallic`, `Roughness`, etc.
+- **Changing properties during animation**: Change `Material Properties` and utilize [Keyframes](https://docs.blender.org/manual/en/latest/animation/keyframes/index.html) throughout the rendering (e.g., surface becomes more mirror polished and color turns lighter)
+
+[![.img/fig1_advanced_animation.gif](.img/fig1_advanced_animation.gif)](#nolink)
 
 [Back to Top](#table-of-contents)
 
