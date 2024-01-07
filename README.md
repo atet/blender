@@ -99,13 +99,29 @@ Continue to scroll past the `Fluid` submenu and under `Cache`, change `End` to `
 
 [![.img/fig9_baking.jpg](.img/fig9_baking.jpg)](#nolink)
 
-After a few moments, Blender will have finished and we can move forward to recording an animation of the physics simulation.
+After a few moments, Blender will have finished processing and we can move forward to recording an animation of the physics simulation.
 
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
 
 ## 5. Recording Animation
+
+Select the `Toggle Camera View` (1) so you can see the recording camera's perspective. With the `Liquid Domain` object selected, go to `Output Properties` (2) and change `End` to `30` (3) and you can change the output path if you want (4). For the `Cube` object, click on `Disable in Renders` (5) so it is greyed out. Under the `Render` menu (7), select `Render Animation`.
+
+[![.img/fig10_render_settings.jpg](.img/fig10_render_settings.jpg)](#nolink)
+
+A new window will pop up and Blender will start rendering the animation. Note that this is a separate step from the "baking" physics simulation and is what is required to produce the final files used for animation.
+
+[![.img/fig11_rendering.jpg](.img/fig11_rendering.jpg)](#nolink)
+
+After a few moments, you will have each of the 30 frames rendered as separate images in your designated output folder.
+
+[![.img/fig12_rendered_frames.jpg](.img/fig12_rendered_frames.jpg)](#nolink)
+
+With these individual frames, you can use other software like GIMP or ScreenToGif to create a `.gif` animation or even `.mp4` video file!
+
+[![.img/fig13_animation.gif](.img/fig13_animation.gif)](#nolink)
 
 [Back to Top](#table-of-contents)
 
@@ -121,7 +137,8 @@ After a few moments, Blender will have finished and we can move forward to recor
 
 **Description** | **URL Link**
 --- | ---
- | 
+GIMP (GNU Image Manipulation Program) | https://www.gimp.org/
+ScreenToGif | https://www.screentogif.com/
 
 [Back to Top](#table-of-contents)
 
