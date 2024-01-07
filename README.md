@@ -129,6 +129,15 @@ With these individual frames, you can use other software like GIMP or ScreenToGi
 
 ## 6. Next Steps
 
+***Congratulations, you've created your first computer-generated imagery (CGI) just like in the movie!*** 
+
+If you're wondering how to make the melting chocolate bar like in the Preface section, you'll have to look into these concepts:
+
+- Different models: `File` → `Import`
+- Backgrounds: `World` → `Color` → `Environment Texture`
+- Surface colors and appearances: Revisit `Material Properties` from the [Applying Physics](#4-applying-physics) step and look into properties like `Base Color`, `Metallic`, `Roughness`, etc.
+- Changing surface colors and appearances throughout animation: Change `Material Properties` and utilize [Keyframes](https://docs.blender.org/manual/en/latest/animation/keyframes/index.html) throughout the animation
+
 [Back to Top](#table-of-contents)
 
 --------------------------------------------------------------------------------------------------
@@ -139,6 +148,8 @@ With these individual frames, you can use other software like GIMP or ScreenToGi
 --- | ---
 GIMP (GNU Image Manipulation Program) | https://www.gimp.org/
 ScreenToGif | https://www.screentogif.com/
+Free 3D Models | https://www.thingiverse.com/
+Free HDRI Backgrounds | https://polyhaven.com/
 
 [Back to Top](#table-of-contents)
 
