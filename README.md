@@ -135,6 +135,7 @@ If you're wondering how to make the melting chocolate bar like in the Preface se
 
 - **Using different models**: `File` → `Import` (See ["Free 3D Models"](#other-resources))
 - **Backgrounds**: `World` → `Color` → `Environment Texture` (See ["Free HDRI Backgrounds"](#other-resources))
+- **Manipulating camera**: In `Camera View`, pan, move, and zoom to the perfect angle for recording
 - **Surface colors and appearances**: Revisit `Material Properties` from the [Applying Physics](#4-applying-physics) step and look into properties like `Base Color`, `Metallic`, `Roughness`, etc.
 - **Changing properties during animation**: Change `Material Properties` and utilize [Keyframes](https://docs.blender.org/manual/en/latest/animation/keyframes/index.html) throughout the rendering (e.g., surface becomes more mirror polished and color turns lighter)
 
